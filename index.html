@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Birdstrikes at Airports Across the U.S.</title>
+		<!--Styles-->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<!--Scripts-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</head>
+	<body>
+				<div id="map-canvas">
+			WHAT THE FUCK
+		</div>
+		<div id="nav">
+
+			<div id="controls-nav" class="nav-box">
+				<div class="nav-title">
+					Filter
+				</div>
+				<label> State:
+					<select id="search-string_state" onchange="changeMap_state(this.value);">
+						<option value="--Select--">--All--</option>
+						<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chandigarh">Chandigarh</option>
+						<option value="Chhattisgarh">Chhattisgarh</option>
+						<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+						<option value="Daman and Diu">Daman and Diu</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Lakshadweep">Lakshadweep</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Orissa">Orissa</option>
+						<option value="Puducherry">Puducherry</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="Uttarakhand">Uttarakhand</option>
+						<option value="West Bengal">West Bengal</option>
+					</select>
+				</label>
+			</div>
+
+			<!--Legend-->
+			<div id="legend-nav" class="nav-box">
+				<div class="nav-title">
+					Party
+				</div>
+				<div class="legend-item">
+					AAP&nbsp; <span class="googft-legend-swatch" style="background-color: #ff7e04"></span>
+				</div>
+				<div class="legend-item">
+					BJP&nbsp; <span class="googft-legend-swatch" style="background-color: #13ff54"></span>
+				</div>
+				<div class="legend-item">
+					Congress&nbsp; <span class="googft-legend-swatch" style="background-color: #2209ff"></span>
+				</div>
+				<div class="legend-item">
+					Other&nbsp; <span class="googft-legend-swatch" style="background-color: #ffffff"></span>
+				</div>
+			</div><!--End legend-->
+		</div><!--End nav-->
+
+
+
+	</body>
+</html>
